@@ -1,4 +1,3 @@
-import 'package:clippy_flutter/triangle.dart';
 import 'package:custom_window_info/custom_info_window.dart';
 import 'package:flutter/material.dart';
 
@@ -81,14 +80,6 @@ class _CustomInfoWindowExampleState extends State<CustomInfoWindowExample> {
                     ),
                     width: double.infinity,
                     height: double.infinity,
-                  ),
-                ),
-                Triangle.isosceles(
-                  edge: Edge.BOTTOM,
-                  child: Container(
-                    color: Colors.blue,
-                    width: 20.0,
-                    height: 10.0,
                   ),
                 ),
               ],
